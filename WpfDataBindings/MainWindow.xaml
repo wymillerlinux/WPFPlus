@@ -1,0 +1,22 @@
+﻿<Window x:Class="WpfDataBindings.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfDataBindings"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <UniformGrid Height="Auto">
+            <Button Content="Element to Element"/>
+            <Button Content="Single Object"/>
+            <Button Content="Collections"/>
+            <Button Content="Data Templates"/>
+            <Button Content="Value Converters"/>
+            <Button Content="Master Detail View"/>
+            <Button Content="Sorting and Filtering"/>
+            <Button Content="About"/>
+            <Button Content="Exit"/>
+        </UniformGrid>
+    </Grid>
+</Window>
