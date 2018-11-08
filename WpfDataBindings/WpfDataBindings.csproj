@@ -77,11 +77,19 @@
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
+    <Page Include="MiniAppTwo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="MiniAppOne.xaml.cs">
       <DependentUpon>MiniAppOne.xaml</DependentUpon>
     </Compile>
+    <Compile Include="MiniAppTwo.xaml.cs">
+      <DependentUpon>MiniAppTwo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Person.cs" />
     <Compile Include="Properties\AssemblyInfo.cs">
       <SubType>Code</SubType>
     </Compile>

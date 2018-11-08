@@ -17,3 +17,4 @@ C:\Users\mill1159\Desktop\WPFPlus\WpfDataBindings\obj\Debug\WpfDataBindings.exe
 C:\Users\mill1159\Desktop\WPFPlus\WpfDataBindings\obj\Debug\WpfDataBindings.pdb
 C:\Users\mill1159\Desktop\WPFPlus\WpfDataBindings\obj\Debug\AboutHelpApp.g.cs
 C:\Users\mill1159\Desktop\WPFPlus\WpfDataBindings\obj\Debug\AboutHelpApp.baml
+C:\Users\mill1159\Desktop\WPFPlus\WpfDataBindings\obj\Debug\MiniAppTwo.g.cs
