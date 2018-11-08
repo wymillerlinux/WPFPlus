@@ -8,15 +8,15 @@
         Title="MainWindow" Height="350" Width="525">
     <Grid>
         <UniformGrid Height="Auto">
-            <Button Content="Element to Element"/>
+            <Button Content="Element to Element" Click="Button_Click"/>
             <Button Content="Single Object"/>
             <Button Content="Collections"/>
             <Button Content="Data Templates"/>
             <Button Content="Value Converters"/>
             <Button Content="Master Detail View"/>
             <Button Content="Sorting and Filtering"/>
-            <Button Content="About"/>
-            <Button Content="Exit"/>
+            <Button Content="About" Click="Button_Click_2"/>
+            <Button Content="Exit" Click="Button_Click_1"/>
         </UniformGrid>
     </Grid>
 </Window>

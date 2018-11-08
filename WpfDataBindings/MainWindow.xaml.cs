@@ -24,5 +24,22 @@ namespace WpfDataBindings
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MiniAppOne mini = new MiniAppOne();
+            mini.Show();
+        }
+
+        private void Button_Click_1(object sender, RoutedEventArgs e)
+        {
+            this.Close();
+        }
+
+        private void Button_Click_2(object sender, RoutedEventArgs e)
+        {
+            AboutHelpApp about = new AboutHelpApp();
+            about.Show();
+        }
     }
 }
